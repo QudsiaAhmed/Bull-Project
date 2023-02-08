@@ -1,0 +1,383 @@
+.image {
+    position: absolute;
+    width: 1852px;
+    height: 1025px;
+    left: -6px;
+    top: -45px;
+    background: linear-gradient(117.35deg, #FF393E 0%, #5D38B4 100%);
+}
+
+p {
+    padding-top: 6px;
+    /* padding-left: 14px; */
+    text-align: center;
+    align-items: center;
+    color: #023C85;
+}
+
+.one-main>.rounded-circle {
+    background: white;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 231px;
+    top: 120px;
+    background: #FFFFFF;
+    border: 2px solid #023C85;
+}
+.rounded-circle {
+    background: white;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 35rem;
+    top: 120px;
+    background: #FFFFFF;
+}
+p>.span-Avatar-one {
+    position: absolute;
+    width: 174px;
+    height: 30px;
+    left: 26px;
+    top: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: #FFFFFF;
+}
+
+p>.span-Avatar-two {
+    position: absolute;
+    width: 174px;
+    height: 30px;
+    left: 34px;
+    top: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: rgba(255, 255, 255, 0.4);
+}
+
+h1 {
+    position: absolute;
+    width: 864px;
+    height: 45px;
+    left: 231px;
+    top: 201px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+
+}
+
+.inner-div {
+    position: absolute;
+    width: 1300px;
+    height: 670px;
+    left: 176px;
+    top: 283px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.select-gender {
+    position: absolute;
+    color: #575656;
+    /* width: 214px; */
+    /* height: 38px; */
+    left: 6rem;
+    top: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    /* identical to box height */
+}
+
+.girl-gender {
+    position: absolute;
+    border-radius: .5rem;
+    width: 83px;
+    height: 75px;
+    left: 6rem;
+    top: 6rem;
+    background-color: rgb(299, 133, 237);
+}
+
+.boy-gender {
+    position: absolute;
+    border-radius: .5rem;
+    width: 83px;
+    height: 75px;
+    left: 12rem;
+    top: 6rem;
+    background-color: rgb(133, 210, 237);
+}
+
+.select-avatar {
+    position: absolute;
+    width: 208px;
+    height: 38px;
+    left: 4.5rem;
+    top: 12rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #575656;
+}
+
+.boy-avatar {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 6.2rem;
+    top: 15.5rem;
+    border-radius: .5rem;
+    background-color: rgb(133, 210, 237);
+}
+
+.avatar1-gender {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 11.7rem;
+    top: 15.5rem;
+    border-radius: .5rem;
+}
+
+.avatar2-gender {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 17.5rem;
+    top: 15.5rem;
+    border-radius: .5rem;
+}
+
+.avatar3-gender {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 23.5rem;
+    top: 15.5rem;
+    border-radius: .5rem;
+}
+
+.avatar4-gender {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 29.4rem;
+    top: 15.5rem;
+    border-radius: .5rem;
+}
+
+.select-skintone {
+    position: absolute;
+    width: 208px;
+    height: 38px;
+    left: 5.3rem;
+    top: 21.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #575656;
+}
+
+.Tone1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 6.75rem;
+    top: 24.75rem;
+}
+
+.Tone2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10rem;
+    top: 24.75rem;
+}
+
+.Tone3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 13.2rem;
+    top: 24.75rem;
+}
+
+.Tone4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 16.3rem;
+    top: 24.75rem;
+}
+
+.Tone5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 19.45rem;
+    top: 24.75rem;
+}
+
+.Tone6 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 22.5rem;
+    top: 24.75rem;
+}
+
+.Tone7 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 25.70rem;
+    top: 24.75rem;
+}
+
+.Tone8 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 28.8rem;
+    top: 24.75rem;
+}
+
+.Tone9 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 32rem;
+    top: 24.75rem;
+}
+
+.select-theme {
+    position: absolute;
+    width: 208px;
+    height: 38px;
+    left: 5rem;
+    top: 28.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #575656;
+}
+
+.Th1 {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 6.75rem;
+    top: 32rem;
+}
+
+.Th2 {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 12.75rem;
+    top: 32rem;
+    border-radius: .5rem;
+}
+
+.Th3 {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 18.75rem;
+    top: 32rem;
+    border-radius: .5rem;
+}
+
+.Th4 {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 24.75rem;
+    top: 32rem;
+    border-radius: .5rem;
+}
+
+.Th5 {
+    position: absolute;
+    width: 78px;
+    height: 75px;
+    left: 30.75rem;
+    top: 32rem;
+    border-radius: .5rem;
+}
+
+.avatar-profile {
+    position: absolute;
+    width: 25rem;
+    height: 38rem;
+    left: 50rem;
+    top: 2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 500px 500px 20px 20px;
+}
+
+.Main-avatar {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.edit {
+    position: absolute;
+    width: 4rem;
+    height: 30px;
+    left: 10rem;
+    top: 34.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: #7A8699;
+}
+
+.rec {
+    position: absolute;
+    width: 271px;
+    height: 50px;
+    left: 1180px;
+    top: 960px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+}
+
+.proceed {
+    position: absolute;
+    width: 115px;
+    height: 17px;
+    left: 6rem;
+    top: .7rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    color: #003666;
+}

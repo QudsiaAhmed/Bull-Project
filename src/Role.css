@@ -1,0 +1,190 @@
+.main-bg {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1846px;
+    height: 980px;
+    /* left: -80px; */
+    background: fixed;
+    top: 0px;
+
+    background-image: url('/src/Images/image\ 26.png');
+
+}
+
+.main-round>.rounded-circle {
+    width: 49px;
+    height: 50px;
+    left: 533px;
+    top: 3rem;
+    background: #fff;
+    border: 2px solid #023C85;
+    background-image: url('/src/Images/Vector\ 192.png');
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+
+.Avatar {
+    position: absolute;
+    width: 174px;
+    height: 30px;
+    left: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.role-circle>.rounded-circle {
+    width: 49px;
+    height: 50px;
+    left: 53rem;
+    top: 3rem;
+    background: #fff;
+    border: 2px solid #023C85;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #023C85;
+    text-align: center;
+}
+
+.other-info {
+    position: absolute;
+    width: 174px;
+    height: 30px;
+    left: 45px;
+    top: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffff;
+}
+
+.about-yourself {
+    position: absolute;
+    width: 563px;
+    height: 50px;
+    left: 540px;
+    top: 8rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffff;
+}
+
+.role-inner-div {
+    position: absolute;
+    width: 1111px;
+    height: 670px;
+    left: 279px;
+    top: 12.5rem;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.Avatar-role {
+    position: absolute;
+    width: 470px;
+    height: 780px;
+    left: 12rem;
+    top: 12rem;
+    background: url("./Images/Role-Avatar.png");
+}
+
+.role-question {
+    position: absolute;
+    width: 567px;
+    height: 373px;
+    left: 24rem;
+    top: 6.5rem;
+    background: #faf9ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.Question-head {
+    position: absolute;
+    left: 4rem;
+    top: 3rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFB803;
+}
+
+.span-ques {
+    color: #a8a8a8;
+}
+
+.Question-one{
+    position: absolute;
+    width: 374px;
+    height: 32px;
+    left: 4rem;
+    top: 7rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #535353;
+    }
+
+.Question-two {
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    color: #535353;
+    padding-bottom: .75rem;
+}
+
+#label-role {
+    position: absolute;
+    width: 449px;
+    height: 52px;
+    left: 4rem;
+    top: 12rem;
+    background: #EAEAEA;
+    border-radius: 5px;
+}
+.Go-back-btn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 160px;
+    height: 53px;
+    left: 4rem;
+    top: 17rem;
+    color: #ffb803;
+    background: #FFFFFF;
+    border: 1px solid #C6C6C6;
+    border-radius: 6px;
+
+}
+
+.Continue-btn {
+    position: absolute;
+    width: 277px;
+    height: 53px;
+    left: 15rem;
+    top: 17rem;
+    background: #ffb803;
+    border-radius: 6px;
+    border: 1px solid #ffb803;
+    color: #fff;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+}

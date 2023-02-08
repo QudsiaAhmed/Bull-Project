@@ -1,0 +1,83 @@
+.role-cong{
+    position: absolute;
+    width: 559px;
+    height: 356px;
+    left: 24rem;
+    top: 10rem;
+    background: #FBFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    }
+.cong {
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    color: #6C6C6C;
+
+
+}
+.cong-end{
+    position: absolute;
+    left: 3rem;
+    top: 8.5rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    color: #6C6C6C;
+}
+
+.created{
+    position: absolute;
+    left: 3rem;
+    top: 6rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    color: #6C6C6C;
+}
+.today{
+    position: absolute;
+    left: 3rem;
+    top: 11.5rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    color: #6C6C6C;
+
+}
+.Go-back-cong-btn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 160px;
+    height: 53px;
+    left: 4rem;
+    top: 17rem;
+    color: #ffb803;
+    background: #FFFFFF;
+    border: 1px solid #C6C6C6;
+    border-radius: 6px;
+
+}
+
+.Continue-cong-btn {
+    position: absolute;
+    width: 277px;
+    height: 53px;
+    left: 15rem;
+    top: 17rem;
+    background: #ffb803;
+    border-radius: 6px;
+    border: 1px solid #ffb803;
+    color: #fff;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+}

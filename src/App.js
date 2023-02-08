@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
-function App() {
+import Login from './Login';
+import Signup from './Signup';
+import Theme from './Theme';
+import Avatar from './Avatar';
+import Bluebookone from './Bluebookone';
+import Bluebooktwo from './Bluebooktwo';
+import Role from './Role.js';
+import Product from './product.js';
+import Target from './Target.js'
+import Targetone from './Targetprofileone.js';
+import Targettwo from './Targetprofletwo'
+import Congratulations from './Congragulation.js'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Bluebooktwo/>
     </div>
-  );
+  )
 }
-
-export default App;
+export default App

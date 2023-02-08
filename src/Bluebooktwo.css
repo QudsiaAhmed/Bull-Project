@@ -1,0 +1,11 @@
+.image-bg {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1852px;
+    height: 1025px;
+    left: -6px;
+    top: -45px;
+    background-image: url('/src/Images/image\ 26.png');
+}
+

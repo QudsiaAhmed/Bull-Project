@@ -1,0 +1,21 @@
+/* body{
+    background-color: rgba(211, 211, 211);
+} */
+.gallery {
+    /* padding: 18rem 0; */
+    padding-top: 18rem;
+    padding-left: 15rem;
+}
+@media screen and (max-width: 400px) {
+    .gallery {
+   padding-left: 0%;
+   padding-top: 0%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .gallery {
+    padding-left: 0%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    }
+  }

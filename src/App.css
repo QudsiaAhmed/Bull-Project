@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+
+.login,
+.col-md-6 {
+  min-height: 90vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin-left: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-main {
+  margin-left: 8rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* .col-md {
+  padding-left: 7rem;
+} */
+
+.col-md-6 {
+  border-radius: 2rem;
+  margin-top: 4rem;
+  /* padding-left: 8rem; */
+}
+
+.bg-image {
+  background-image: url("/src/image.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.display-3,
+.display-4 {
+  color: rgb(2, 60, 133);
+  font-size: 3rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.display-4 {
+  padding-bottom: 1.5rem;
+}
+
+#sign {
+  margin-left: 8rem;
+}
+
+
+#formControlLg {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: .85rem;
+  background: rgb(234, 234, 234);
+}
+#btn{
+  margin-bottom: 2rem;
+}
+/* 
+.form-check {
+  padding-bottom: 1rem;
+} */
+.forgot{
+  padding-left: 15rem;
+}
+/* .forgot-label {
+  padding-left: 12rem;
+} */
+.larger{
+  width: 20px;
+  height: 18px;
+  color: rgb(2, 60, 133);
+  
+
+}
+#login-btn {
+  background-color: rgb(255, 184, 3);
   color: white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: 1.5rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+#login-google {
+  font-size: 15px;
+  font-weight: bold;
+  /* background-image: url("/src/google.png");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: 9.5rem; */
+  border-color: rgb(2, 60, 133);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.google-logo {
+height: 14px;
+padding-right: .5rem;
+}
+
+.sign-up {
+  color: rgb(2, 60, 133);
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.checkbox {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+.Terms {
+  color: rgb(2, 60, 133);
+}
+
+/* #signup-google {
+  font-size: 15px;
+  background-image: url("/src/google.png");
+  background-repeat: no-repeat;
+  background-position: 8.5rem;
+} */
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-left: 0%;
+    margin-right: 0%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .container-main {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media screen and (max-width: 851px) and (min-width: 610px) {
+  .container {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .container-main {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+/* @media screen and (max-width: 851px) and (min-width: 841px) {
+  .container {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .container-main {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+} */
+
+
+
+@media screen and (max-width: 895px) and (min-width: 851px) {
+  .container {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .container-main {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .container-main {
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
